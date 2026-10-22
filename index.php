@@ -151,12 +151,17 @@ $total = $base + ($base * ITBMS);
    <meta name="lab9-huella" content="<?= $huella ?>">
   <title>Lab 9 · Estructuras de control</title>
   <!-- TODO CSS-1: enlaza css/estilos.css (CSS externo) -->
+   <link rel="stylesheet" href="css/estilos.css">
   <!-- TODO CSS-2: agrega un <style> interno con al menos 2 reglas -->
+    <style>
+    table { border-collapse: collapse; }
+    th, td { padding: 6px 12px; }
+  </style>
 </head>
 <body>
   <header>
     <!-- TODO CSS-3: agrega un atributo style (CSS en línea) a este h1 -->
-    <h1>Laboratorio #9 · Estructuras de control</h1>
+    <h1 style="color: #1f3a5f;">Laboratorio #9 · Estructuras de control</h1>
     <p id="autor"><!-- TODO 0.4: "Autor: Nombre Apellido" -->Autor: <?= NOMBRE ?> <?= APELLIDO ?></p>
   </header>
 
