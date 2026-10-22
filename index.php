@@ -110,7 +110,7 @@ if ($dia == 3) {
 
     <section id="ej1">
       <h2>Ejercicio 1 · Boleto de cine</h2>
-      <p id="ej1-res"><!-- TODO 1 --></p>
+      <p id="ej1-res">Categoría: <?php echo $categoria; ?> | Precio final: B/. <?php echo number_format($precio, 2); ?> | Miércoles 50%: <?php echo $miercoles; ?></p>
     </section>
 
     <section id="ej2">
