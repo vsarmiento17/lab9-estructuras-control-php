@@ -29,3 +29,9 @@ section {
 }
 
 /* TODO CSS-5: define aquí las clases .ok (fondo verde claro) y .error (fondo rojo claro) */
+.ok {
+  background: #018a21;
+}
+.error {
+  background: #d10303;
+}
